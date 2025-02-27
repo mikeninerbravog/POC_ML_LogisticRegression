@@ -34,44 +34,37 @@ The algorithm calculates the **probability** of an email being spam. If the prob
 
 ---
 ## 📂 **Project Structure**
-- `logistic_regression_diabetes.py` - Implementation of the medical diagnosis model.
-- `logistic_regression_spam.py` - Implementation of the spam detection model.
-- `README.md` - Documentation explaining the project.
+The code is available in a Google Colab notebook:
+
+[Open in Colab](https://colab.research.google.com/github/mikeninerbravog/POC_ML_LogisticRegression/blob/master/POC_ML_LogisticRegression.ipynb)
+
+This notebook includes:
+- Implementation of both examples (diabetes prediction and spam detection).
+- Step-by-step explanation of Logistic Regression.
+- Data preprocessing, model training, evaluation, and visualization.
 
 ## ⚙ **How to Run the Code**
-This project can be executed in any Python environment with the necessary libraries installed.
+You can execute the code directly in Google Colab without any local setup.
 
-### **1️⃣ Install dependencies:**
-```bash
-pip install numpy pandas matplotlib scikit-learn
-```
-
-### **2️⃣ Run the scripts:**
-To run the diabetes prediction model:
-```bash
-python logistic_regression_diabetes.py
-```
-To run the spam detection model:
-```bash
-python logistic_regression_spam.py
-```
+### **Steps to Run in Colab:**
+1. Click on the **Open in Colab** link above.
+2. Run each cell sequentially in the notebook.
+3. Explore the predictions, accuracy reports, and visualizations.
 
 ## 📊 **Expected Results**
-Each script provides:
-- **Individual predictions** for sample inputs
-- **Model accuracy**
-- **Confusion matrix** (to analyze classification errors)
-- **Classification report** (precision, recall, and F1-score)
+The notebook provides:
+- **Individual predictions** for sample inputs.
+- **Model accuracy** for both examples.
+- **Confusion matrix** to analyze classification errors.
+- **Classification report** (precision, recall, and F1-score).
 
 ## 📈 **Results Visualization**
 The project generates **confusion matrix plots** to visualize the model's performance in classifying instances.
 
 ## 🚀 **Why Use Logistic Regression?**
-✔ Simple and effective for binary classification problems
-✔ Provides interpretable probability-based predictions
-✔ Widely used in fields such as healthcare, cybersecurity, and finance
+✔ Simple and effective for binary classification problems.
+✔ Provides interpretable probability-based predictions.
+✔ Widely used in fields such as healthcare, cybersecurity, and finance.
 
 ## 📜 **License**
 This project is licensed under the MIT License - see the `LICENSE` file for details.
-
----
